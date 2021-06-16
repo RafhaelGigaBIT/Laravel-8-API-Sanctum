@@ -23,5 +23,14 @@ $ php artisan serve
 
 ## Rotas
 
-### Listagem de produtos
-><_host_>/api/products
+### Listagem de produtos (GET)
+>/api/products
+
+### cadastro de produtos (POST)
+>/api/products
+
+### Paramêtros
+* name
+* slug
+* description
+* price
