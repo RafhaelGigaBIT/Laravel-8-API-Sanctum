@@ -23,14 +23,27 @@ $ php artisan serve
 
 ## Rotas
 
-### Listagem de produtos (GET)
+### Listagem de produtos (GET) (SUCESS: 200)
 >/api/products
 
-### cadastro de produtos (POST)
+### Cadastro de produtos (POST) (SUCESS: 200)
 >/api/products
 
-### Paramêtros
-* name
-* slug
-* description
-* price
+#### Paramêtros
+* name (string)
+* slug (string)
+* description (string)
+* price (float)
+
+### Update de produtos (PUT) (SUCESS: 200)
+>/api/products/{id}
+
+#### Paramêtros (apenas o(s) que irá(ão) ser atualizado(s))
+
+* name (string)
+* slug (string)
+* description (string)
+* price (float)
+
+### Deletar produtos (DELETE) (SUCESS: 200)
+> /api/products/{id}
