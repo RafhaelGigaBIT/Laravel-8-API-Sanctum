@@ -20,3 +20,8 @@ $ php artisan migrate
 ```bash
 $ php artisan serve
 ```
+
+## Rotas
+
+### Listagem de produtos
+><_host_>/api/products
