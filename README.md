@@ -54,7 +54,7 @@ $ php artisan serve
 
 
 
-## Rotas de Register e Login
+## Rotas de Register, login e logout
 
 ### Register (POST) (SUCESS: 201)
 >/api/register
@@ -65,3 +65,8 @@ $ php artisan serve
 * email (string);
 * password (string)
 * password_confirmation (string)
+
+### Register (POST) (SUCESS: 200)
+>/api/logout
+ 
+* Obs: Obrigatório estar logado.

@@ -16,6 +16,8 @@ Route::get('/products/search/{name}', [ProductController::class, 'search']);
 
 //Private Routes
 Route::group(['middleware' => ['auth:sanctum']], function () {
+    Route::post('/logout', [AuthController::class, 'logout']);
+
     Route::post('/products', [ProductController::class, 'store']);
     Route::put('/products/{id}', [ProductController::class, 'update']);
     Route::delete('/products/{}', [ProductController::class, 'destroy']);
