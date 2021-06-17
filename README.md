@@ -2,7 +2,8 @@
 ## Sanctum Learn
 
 API simples para cadastrar, mostrar e deletar produtos. 
-Resistro, login e logout usando Sanctum.
+</br>
+Auth Routes usando Sanctum
 
 ## Instalação
 
