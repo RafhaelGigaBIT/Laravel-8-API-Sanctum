@@ -47,3 +47,6 @@ $ php artisan serve
 
 ### Deletar produtos (DELETE) (SUCESS: 200)
 > /api/products/{id}
+
+### Buscar produtos (GET) (SUCESS: 200)
+> /api/products/search/{name}
