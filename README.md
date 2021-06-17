@@ -81,3 +81,4 @@ $ php artisan serve
  
 * Obs: Obrigatório estar logado.
 
+:heavy_check_mark: Projeto finalizado.
