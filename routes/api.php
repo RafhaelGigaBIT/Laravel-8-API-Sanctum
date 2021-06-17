@@ -1,13 +1,14 @@
 <?php
 
+use App\Http\Controllers\AuthController;
 use App\Http\Controllers\ProductController;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 //Public Routes
-// Route::get('/products', [ProductController::class, 'index']);
-// Route::post('/products', [ProductController::class, 'store']);
+
+Route::post('/register', [AuthController::class, 'register']);
 
 Route::get('/products', [ProductController::class, 'index']);
 Route::get('/products/{name}', [ProductController::class, 'show']);
