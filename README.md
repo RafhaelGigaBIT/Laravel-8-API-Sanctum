@@ -66,7 +66,18 @@ $ php artisan serve
 * password (string)
 * password_confirmation (string)
 
-### Register (POST) (SUCESS: 200)
+
+### Login (POST) (SUCESS: 201)
+>/api/login
+
+#### Paramêtros (apenas o(s) que irá(ão) ser atualizado(s))
+
+* email (string);
+* password (string)
+
+
+### Logout (POST) (SUCESS: 200)
 >/api/logout
  
 * Obs: Obrigatório estar logado.
+
